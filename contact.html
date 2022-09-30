@@ -3,10 +3,25 @@
   <head>
     <meta charset="utf-8"
     <title>My Contact</title>
+    <link rel="stylesheet" href="css/styles.css">
+
   </head>
   <body>
-    email: peach.0389@gmail.com
-    Tel: 0987654321
-    ที่อยู่: นนทบุรี
+    <ol>
+    <li>จดหมายอิเล็กทรอนิกส์: peach.0389@gmail.com</li>
+    <li>Tel: 0987654321</li>
+    <li>ที่อยู่: นนทบุรี</li>
+    </ol>
+    <hr>
+    <h3>ติดต่อฉัน</h3>
+        <form class="" action="mailto:peach.0389@gmail.com" method="post" enctype="text/plain">
+        <label>ชื่อ-นามสกุล:</label>
+        <input type="text" name="name_surname" value=""><br>
+        <label>E-mail:</label>
+        <input type="email" name="email" value=""><br>
+        <label>ข้อความที่ต้องการส่ง:</label><br>
+        <textarea name="message" rows="8" cols="80"></textarea><br>
+        <input type="submit" name="" >
+      </form>
   </body>
 </html>
